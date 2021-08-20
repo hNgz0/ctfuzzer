@@ -1,0 +1,144 @@
+_interpreter="$SHELL"
+#!$_interpreter
+
+if [ "$8" == "" ];then
+
+	printf "\e[0m"
+	printf "ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICwgICAsICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICQsICAkLCAgICAgLCAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICJzcy4kc3MuIC5zJyAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAsICAgICAuc3MkJCQkJCQkJCQkcywgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAkLiBzJCQkJCQkJCQkJCQkJCRgJCRTcyAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAiJCQkJCQkJCQkJCQkJCQkJCQkbyQkJCAgICAgICAsICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHMkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCRzLCAgLHMgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcyQkJCQkJCQkJCIkJCQkJCQiIiIiJCQkJCQkIiQkJCQkLCAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcyQkJCQkJCQkJCRzIiIkJCQkc3Nzc3NzIiQkJCQkJCQkIiAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzJCQkJCQkJCQkJCcgICAgICAgICBgIiIic3MiJCIkcyIiICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzJCQkJCQkJCQkJCwgICAgICAgICAgICAgIGAiIiIiIiQgIC5zJCRzICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzJCQkJCQkJCQkJCQkcywuLi4gICAgICAgICAgICAgICBgcyQkJyAgYCAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgIGBzc3NzJCQkJCQkJCQkJCQkJCQkJCQkJCQjIyMjcy4gICAgIC4kJCIkLiAgICwgcy0gICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgYCIiIiIkJCQkJCQkJCQkJCQkJCQkJCQkJCMjIyMjJCQkJCQkIiAgICAgJC4kJyAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIiQkJCQkJCQkJCQkJCQkJCQkJCQkJCMjIyNzIiIgICAgIC4kJCR8ICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAiJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkIyNzICAgIC4kJCIgJCAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAkJCIiJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQiICAgYCAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICQkIiAgIiQiJCQkJCQkJCQkJCQkJCQkJCQkJCRTIiIiIicgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAsICAgLCIgICAgICcgICQkJCQkJCQkJCQkJCQkJCQjIyMjcyAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAkLiAgICAgICAgICAucyQkJCQkJCQkJCQkJCQkJCQkIyMjIyIgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAsICAgICAgICAgICAiJHMuICAgLi5zc1MkJCQkJCQkJCQkJCQkJCQkJCQkIyMjIyIgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAkICAgICAgICAgICAuJCQkUyQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCMjIyMjIiAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICBTcyAgICAgLi5zUyQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCMjIyMjIyIiICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgIiQkc1MkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQjIyMjIyMjIyIgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAsICAgICAgcyQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCMjIyMjIyMjIyIiJyAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAkICAgIHMkJCQkJCQkJCQkJCQkJCQkJCQkJCQjIyMjIyMjIiInICAgICAgcycgICAgICAgICAsICAgICAgICAgICAKICAgICAgICAgICAkJC4uJCQkJCQkJCQkJCQkJCQkJCQkIyMjIyMjIicgICAgICAgLi4uLiwkJC4uLi4gICAgLCQgICAgICAgICAgICAKICAgICAgICAgICAgIiQkJCQkJCQkJCQkJCQkJCMjIyMjIyInICwgICAgIC5zUyQkJCQkJCQkJCQkJCQkJCRzJCQgICAgICAgICAgICAKICAgICAgICAgICAgICAkJCQkJCQkJCQkJCQjIyMjIyIgICAgICQsIC5zJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkcy4gICAgICAgICAKICAgKSAgICAgICAgICAkJCQkJCQkJCQkJCMjIyMjJyAgICAgIGAkJCQkJCQkJCQjIyMjIyMjIyMjIyQkJCQkJCQkJCQkLiAgICAgICAKICAoKCAgICAgICAgICAkJCQkJCQkJCQkJCMjIyMjICAgICAgICQkJCQkJCQkIyMjIiAgICAgICAiIyMjIyQkJCQkJCQkJCQgICAgICAKICApIFwgICAgICAgICAkJCQkJCQkJCQkJCQjIyMjLiAgICAgJCQkJCQkIyMjIiAgICAgICAgICAgICAiIyMjJCQkJCQkJCQkICAgcycKICggICApICAgICAgICAkJCQkJCQkJCQkJCQkIyMjIy4gICAkJCQkJCMjIyIgICAgICAgICAgICAgICAgIyMjIyQkJCQkJCQkcyQkJyAKICkgICggKCAgICAgICAkJCIkJCQkJCQkJCQkJCMjIyMjLiQkJCQkIyMjJyAgICAgICAgICAgICAgICAuIyMjJCQkJCQkJCQkJCIgICAKICggICkgICkgICBfLCQiICAgJCQkJCQkJCQkJCQkIyMjIyMjLiQkIyMnICAgICAgICAgICAgICAgIC4jIyMkJCQkJCQkJCQkICAgICAKICkgKCAgKCBcLiAgICAgICAgICIkJCQkJCQkJCQkJCQkIyMjIyMjIywsLC4gICAgICAgICAgLi4jIyMjJCQkJCQkJCQkJCQiICAgICAKKCAgICkkICkgICkgICAgICAgICwkJCQkJCQkJCQkJCQkJCQkJCQjIyMjIyMjIyMjIyMjIyMjIyMjIyQkJCQkJCQkJCQkIiAgICAgICAKKCAgICgkJCAgKCBcICAgICBfc1MiICBgIiQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkUyQkLCAgICAgICAKICkgICkkJCRzICkgKSAgLiAgICAgIC4gICBgJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCInICBgJCQgICAgICAKICAoICAgJCQkU3MvICAuJCwgICAgLiQsLHMkJCQkJCQjI1MkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCRTIiIgICAgICAgICcgICAgICAKICAgIFwpXyQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkIyMiICAkJCAgICAgICAgYCQkLiAgICAgICAgYCQkLiAgICAgICAgICAgICAgICAKICAgICAgICBgIlMkJCQkJCQkJCQkJCQkJCQkJCMiICAgICAgJCAgICAgICAgICBgJCAgICAgICAgICBgJCAgICAgICAgICAgICAgICBDVGZ1enplciAtIFsgaHR0cHM6Ly9naXRodWIuY29tL2hOZ3owL2N0ZnV6emVyIF0KICAgICAgICAgICAgYCIiIiIiIiIiIiIiIiInICAgICAgICAgJyAgICAgICAgICAgJyAgICAgICAgICAgJwkJCWhOZ3ogdjEuMAo=" | base64 -d
+
+	printf "\e[1;37m
+%s -i [IP] -d [DOMAIN] -h [HOSTS FILE] -w [WORDLIST]
+
+	usage:
+		%s -i 10.0.0.1 -d domain.priv -h /etc/hosts -w /dnsrecon-list.domains
+
+\e[0m" "$0" "$0" ;exit 0
+
+elif [ ! "$(id -u)" == "0" ];then
+	printf "\n\e[1;37m[+] JUST ROOT !! [+]\e[0m\n\n";exit 0
+
+elif [ ! -f "$8" ];then
+	printf "\n\e[1;37m[+] wordlist: %s not found ! [+]\e[0m\n\n" "$8";exit 0
+
+fi
+
+###########################################################################################################################################################################################
+
+if [ -f /etc/hosts.bak ];then
+
+	printf "\n\e[1;37m[+] the file /etc/hosts.bak already exists want to overwrite (y/N) ?\n\n--> "
+	read _confirm
+
+	case $_confirm in
+
+		Y|y|yes|YES|S|sim|Sim)
+
+			cp $6 /etc/hosts.bak && printf "\n\e[1;37m[+] %s coppied to /etc/hosts.bak [+]\n\n\e[0m" "$6"
+			;;
+		*)
+			;;
+	esac
+
+else
+	cp $6 /etc/hosts.bak && printf "\n\e[1;37m[+] %s coppied to /etc/hosts.bak [+]\n\n\e[0m" "$6"
+fi
+
+rm -f "$6"
+
+printf "# +++++++++++++++++++++++++++ #
+
+127.0.0.1\tlocalhost
+::1\t\tlocalhost
+%s\t%s
+%s\tsubtesthngzintra.%s
+
+# +++++++++++++++++++++++++++ #
+" "$2" "$4" "$2" "$4"> "$6"
+
+_INITM="$(date +%H%M%S)"
+
+printf "\x1b[2J\x1b[H 
+\e[0m---------------------------------------------------
+\t\t\e[1;37m[#] RUNNING [#]
+
+IP: %s
+DOMAIN: %s
+HOSTS FILE: %s
+WORDLIST: %s
+INITIALIZED: %s
+
+\e[0m---------------------------------------------------
+" "$2" "$4" "$6" "$8" "$(date +%H:%M:%S)"
+
+for _SUB in $(cat $8);do
+	printf "\n%s\t%s.%s" "$2" "$_SUB" "$4" >> "$6"
+done
+
+_ENDM="$(date +%H%M%S)"
+
+printf "\e[1;37m
+
+[+] DONE !! %s have %s lines [+]
+\n\tTERMINATED ( %s )
+
+\e[0m" "$6" "$(wc -l $6)" "$(date +%H:%M:%S)"
+
+###########################################################################################################################################################################################
+
+printf "\e[1;37mWant to fuzz the subdomains (Y/n) ? 
+\n--> \e[0m"; read _VERIFY
+
+case $_VERIFY in
+
+
+	n|N)
+		printf "\e[0m\nSee you next time ... :)\n\n"
+		;;
+
+	*)
+		_FFUF="$(type -p ffuf)"
+		_CURL="$(type -p curl)"
+
+		if [ ! -f "$_FFUF" ];then
+			printf "\n\e[0m[*]\e[1;31m ffuf not found, download at:\e[0m https://github.com/ffuf/ffuf [*]\n"; exit 0
+		elif [ ! -f "$_CURL" ];then
+			printf "\n\e[0m[*]\e[1;31m curl not found, download at:\e[0m https://github.com/curl/curl [*]\n"; exit 0
+
+		else
+
+			printf "\n\e[1;37m[#] want specify the response size (Y/n) ? \n\n--> \e[0m"; read _VSIZE;
+
+			case $_VSIZE in
+
+				n|N)
+					_RSIZE="$(curl -s subtesthngzintra.$4 | wc -c)"
+
+					if [ ! "$_RSIZE" == "$(curl -s $4 | wc -c)" ];then
+						_LSIZE="$(curl -s $4 | wc -c )"
+						_BOOL="1"
+					fi
+
+					;;
+
+				*)
+					printf "\e[1;37m\n[#] response size: \e[0m"; read _RSIZE
+					[ "$_RSIZE" == "" ] && exit 0
+					;;
+
+			esac
+
+			printf "\n\e[1;37m[#] HTTP or HTTPS ( lowercase ): \e[0m"; read _PROT
+			[ "$_PROT" == "" ] && exit 0
+
+
+			if [ "$_BOOL" == "1" ];then
+				$_FFUF -u http://FUZZ.$4/ -w $8 -t 110 -fs $_RSIZE,$_LSIZE -H "User-Agent: no-sniff" -H "Connection: close" -H "Cache-Control: no-cache" --timeout 20
+			else
+				$_FFUF -u http://FUZZ.$4/ -w $8 -t 110 -fs $_RSIZE -H "User-Agent: no-sniff" -H "Connection: close" -H "Cache-Control: no-cache" --timeout 20
+			fi
+
+		fi
+
+		;;
+
+esac
