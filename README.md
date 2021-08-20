@@ -12,7 +12,7 @@ git clone https://github.com/hNgz0/ctfuzzer/
 
 chmod 755 ./ctfuzzer/ctfuzzer
 
-mv -v ./ctfuzzer/ctfuzzer /sbin/ctfuzzer && rm -f ./ctfuzzer
+mv -v ./ctfuzzer/ctfuzzer /sbin/ctfuzzer && rm -Rf ./ctfuzzer
 
 ## Dependencies
 ffuf - https://github.com/ffuf/ffuf
